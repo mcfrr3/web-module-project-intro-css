@@ -1,0 +1,213 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* My Styles */
+
+* {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+/* Fonts */
+body {
+    font-family: "Roboto Mono", serif;
+    font-size: 1.2rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.6rem;
+}
+
+h3 {
+    font-size: 2.2rem;
+}
+
+h4 {
+    font-size: 1.8rem;
+}
+
+h5 {
+    font-size: 1.4rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+h1.title {
+    font-family: "Chelsea Market", sans-serif;
+}
+
+nav{
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+}
+
+nav::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+.topnav {
+    margin: 1.5rem 5%;
+}
+
+nav a {
+    /* margin: 5px auto; */
+    padding: 10px 25px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    max-width: 11.5rem;
+    text-align: center;
+    /* height: auto; */
+}
+
+a.planVisit {
+    background-color: #FF764E;
+}
+
+a.learnPark {
+    background-color: #5ED3EB;
+}
+
+a.getInvolved {
+    background-color: #FFCD69;
+}
+
+header {
+    margin: 4%;
+}
+
+header section {
+    display: inline-block;
+}
+
+header section.headerImage {
+    display: inline-block;
+    width: 30%;
+}
+
+header section.headerContent {
+    /* bottom: 30%; */
+    vertical-align: top;
+    text-align: center;
+    line-height: 2;
+    display: inline-block;
+    width: auto;
+}
+
+header section.headerImage img {
+    /* display: inline-block; */
+    /* max-width: 25%; */
+    height: auto;
+    width: 100%;
+    border-radius: 50%;
+}
+
+header section p {
+    margin: auto;
+    width: 70%;
+}
+
+.bodyText {
+    background-color: #DDB9A3;
+    color: white;
+    /* padding: 0.8rem; */
+    margin: 2.5rem;
+    word-spacing: 0.25rem;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+.bodyText p {
+    padding: 1.2rem 0;
+    kerning: 1.8rem;
+}
+
+.imageText {
+    margin: 3rem auto;
+    width: 20%;
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.imageText i {
+    display: inline-block;
+    margin: 2rem auto;
+}
+
+footer div.footerImage {
+    background-image: url(assets/footer_img.jpg);
+    height: 16rem;
+    background-repeat: no-repeat;
+    background-position: 0% 20%;
+    background-size: cover;
+}
+
+footer div.footerContent {
+    padding: 2.5rem;
+}
+
+footer {
+    background-color: #F9E7DC;
+    width: 100%;
+}
+
+.bold {
+    font-weight: bolder;
+}
